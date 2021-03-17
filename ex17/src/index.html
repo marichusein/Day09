@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <h2>CatPhotoApp</h2>
+    <main>
+        <p>View more <a href="#">
+            <img src="https://bit.ly/3fUJAV1"
+             alt="Gray Cat on Tree Branch." />
+            cat photos</a></p>
+        <ul>
+            <li>food</li>
+            <li>scratching</li>
+            <li>hunting</li>
+        </ul>
+        <ol>
+            <li>strangers</li>
+            <li>lemon</li>
+            <li>balloons</li>
+        </ol>
+        <form action="/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL" required> 
+         <!-- when button is clicked without entering the text, 
+            a pop up shows which says: "Please fill out this field." -->
+        <button type="submit">Submit</button>
+    </form>
+    <div>
+        <label for="inside">
+            <input id="inside" type="radio" name="inside-outside" value="inside" checked>inside
+        </label>
+        <label for="outside">
+            <input id="outside" type="radio" name="inside-outside" value="outside">outside
+        </label>
+    </div>
+    <div>
+        <label for="Dog">
+    <input type="checkbox" value="Dog" checked>Dog
+        </label>
+        <label for="Car">
+            <input type="checkbox" value="Cat">Cat
+        </label>
+        <label for="Hamster">
+            <input type="checkbox" value="Hamster">Hamster
+        </label>
+        <label for="Bird">
+            <input type="checkbox" value="Bird">Bird
+        </label>
+        <label for="Fish">
+            <input type="checkbox" value="Fish">Fish
+        </label>      
+    </div>
+    </main>
+    <footer id="footer"></footer> 
+</body>
+</html>
